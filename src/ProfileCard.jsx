@@ -1,7 +1,7 @@
 import myphoto from './assets/ME.jpg'
 
 function ProfileCard(props){
-  return{
+  return(
     <div>
       <p>
       <img src={myphoto} alt="There is a problem, I feel."></img>
@@ -13,5 +13,7 @@ function ProfileCard(props){
       </ul>
       </p>
     </div>
-  }
+  )
 }
+
+export default ProfileCard
