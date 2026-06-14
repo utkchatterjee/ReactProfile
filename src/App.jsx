@@ -1,3 +1,5 @@
+import './App.css'
+
 import ProfileCard from './ProfileCard.jsx'
 import SkillBadge from './SkillBadge.jsx'
 import LinksSection from './LinksSection.jsx'
